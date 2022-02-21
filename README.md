@@ -11,7 +11,7 @@ Ao longo do curso foram apresentadas diversas ferramentas e tecnologias que fora
 - CQRS
 - MediatR
 - JWT (Json Web Token)
-- xUnit para a execução de testes unitários
+- Mensageria com RabbitMQ
 
 A API desenvolvida é o backend de uma aplicação monitoramento/gerenciamento de projetos. As funções implementdas na API foram:
 
@@ -74,3 +74,13 @@ O Mediator é um padrão de projeto Comportamental criado pelo GoF, que nos ajud
 JWT (JSON Web Token) é um método RCT 7519 padrão da indústria para realizar autenticação entre duas partes por meio de um token assinado que autentica uma requisição web. Esse token é um código em Base64 que armazena objetos JSON com os dados que permitem a autenticação da requisição. 
 
 ![image](https://user-images.githubusercontent.com/10198200/154870355-650bb873-8557-4693-b57a-26e5e4001d2e.png)
+
+---
+
+## Mensageria com RabbitMQ
+
+**Mensageria** ou **Messaging** consiste na utilização de mensagens para estabelecer a comunicação síncrona ou assíncrona entre aplicações. Em mensageria, uma mensagem pode ser definida como uma estrutura de dados composta por meta-dados como host de origem/destino, fila de destino, etc, além de dados fornecidos pela aplicação, por exemplo os dados de um cliente a ser cadastrado.
+
+***RabbitMQ*** é um servidor de mensageria de código aberto (open source) desenvolvido em Erlang, implementado para suportar mensagens em um protocolo denominado Advanced Message Queuing Protocol (AMQP). Ele possibilita lidar com o tráfego de mensagens de forma rápida e confiável, além de ser compatível com diversas linguagens de programação, possuir interface de administração nativa e ser multiplataforma.
+
+![image](https://www.cloudamqp.com/img/blog/exchanges-topic-fanout-direct.png)
